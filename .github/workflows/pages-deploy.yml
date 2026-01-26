@@ -62,6 +62,9 @@ jobs:
           # 변경사항이 있을 때만 커밋
           git diff --quiet && git diff --staged --quiet || (git commit -m '🤖 AI 요약 자동 생성' && git push origin main --force)
       # --- AI 요약 단계 끝 ---
+      # Chirpy 테마의 JS/CSS를 빌드
+      - name: Build Theme Assets
+        run: npm run build
 
       - name: Setup Pages
         id: pages
@@ -72,12 +75,6 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
-
-      # 이 단계에서 vendors/bootstrap 등을 SCSS가 찾을 수 있게 준비합니다.
-      - name: Pre-build Setup
-        run: |
-          npm run build:css || true  # CSS 빌드 시도 (없으면 스킵)
-          bundle exec jekyll build --trace # 에러 상세 추적을 위해 --trace 추가
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
