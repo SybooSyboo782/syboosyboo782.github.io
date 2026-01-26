@@ -1,0 +1,32 @@
+{% if page.summary %}
+<div id="ai-summary-wrapper" class="rounded border mb-4">
+  <div class="d-flex align-items-center p-3 bg-light-alt" id="ai-summary-header" style="cursor: pointer;">
+    <i class="fas fa-robot text-info me-2"></i>
+    <span class="fw-bold">AI 요약</span>
+    <i id="summary-chevron" class="fas fa-chevron-down ms-auto transition-icon"></i>
+  </div>
+
+  <div id="ai-summary-content" class="p-3 border-top overflow-hidden">
+    <div class="text-muted">
+      {{ page.summary | markdownify }}
+    </div>
+  </div>
+</div>
+
+<style>
+  .bg-light-alt { background-color: var(--main-wrapper-bg); }
+  .transition-icon { transition: transform 0.3s ease; }
+  .rotate-180 { transform: rotate(180deg); }
+  #ai-summary-content {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease;
+    max-height: 500px; /* 충분한 높이 */
+    opacity: 1;
+  }
+  #ai-summary-content.hidden {
+    max-height: 0;
+    opacity: 0;
+    padding: 0 !important;
+    border-top: none !important;
+  }
+</style>
+{% endif %}
