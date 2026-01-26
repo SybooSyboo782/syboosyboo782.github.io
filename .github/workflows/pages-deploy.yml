@@ -31,9 +31,31 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
+          submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+            # --- 여기서부터 AI 요약 단계 시작 ---
+      - name: Setup Node.js for Summary
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Gemini SDK
+        run: npm install @google/generative-ai
+
+      - name: Generate AI Summary
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node summary.mjs
+
+      - name: Commit AI Summaries
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _posts/*.md
+          # 변경사항이 있을 때만 커밋
+          git diff --quiet && git diff --staged --quiet || (git commit -m '🤖 AI 요약 자동 생성' && git push)
+      # --- AI 요약 단계 끝 ---
 
       - name: Setup Pages
         id: pages
