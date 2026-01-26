@@ -7,6 +7,7 @@ tags: [Docker]
 pin: true
 math: true
 mermaid: true
+summary: '이 블로그 글은 `docker run` 명령어 사용 시 컨테이너의 동작 방식을 제어하는 다양한 옵션들을 설명함. `-i`, `-t`, `-d`와 같은 실행 모드 설정부터 `-p` (포트), `-v` (볼륨), `--restart` (재시작 정책) 등 컨테이너의 세부적인 동작을 제어하는 광범위한 옵션들을 다룸.'
 ---
 
 ![도커 이미지](../assets/img/docker/docker.png)

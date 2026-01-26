@@ -7,6 +7,7 @@ tags: [Docker]
 pin: true
 math: true
 mermaid: true
+summary: 'Docker Compose는 단일 서버에서 여러 도커 컨테이너를 하나의 서비스로 정의하여 묶음으로 관리하는 도구임. 이를 통해 컨테이너 생성을 간소화하고 다양한 환경에서 애플리케이션의 일관된 배포 및 관리를 가능하게 함. 서비스 정의는 YAML 파일을 사용하여 구성함.'
 ---
 
 ![도커 이미지](../assets/img/docker/docker.png)

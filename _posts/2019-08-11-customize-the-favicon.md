@@ -4,6 +4,7 @@ author: cotes
 date: 2019-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
 tags: [favicon]
+summary: 'Chirpy 테마의 파비콘을 교체하는 방법을 설명함. 512x512 이상의 이미지를 Real Favicon Generator에서 생성함. 생성된 파일 중 `site.webmanifest`를 제외한 이미지 파일들을 다운로드하여 `assets/img/favicons/` 디렉토리에 복사함으로써 파비콘을 교체함.'
 ---
 
 The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.

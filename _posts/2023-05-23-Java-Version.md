@@ -7,6 +7,7 @@ tags: [자바, Java]
 pin: true
 math: true
 mermaid: true
+summary: 'Java LTS는 Java 8, 11, 17 버전으로, 장기적인 지원을 제공함. Java 8은 람다식과 스트림 API를 도입해 함수형 프로그래밍을 지원했으며, Java 11은 모듈 시스템과 HTTP 클라이언트 API를 제공함. 최신 LTS인 Java 17은 Sealed 클래스, 패턴 매칭, 레코드 등 언어 기능을 강화하여 코드의 가독성 및 안정성을 높임.'
 ---
 자바 LTS
 ---

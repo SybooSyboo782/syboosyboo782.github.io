@@ -7,6 +7,7 @@ tags: [Spring, EJB]
 pin: true
 math: true
 mermaid: true
+summary: '스프링은 EJB의 복잡성을 해결하고 EJB 없이도 고품질의 애플리케이션 개발이 가능함을 보여주며 탄생했음. POJO, IoC, DI 등 핵심 기술을 기반으로 다양한 자바 플랫폼 환경에 맞춰 지속적으로 발전해왔음.'
 ---
 
 # 스프링 소개

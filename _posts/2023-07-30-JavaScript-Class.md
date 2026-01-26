@@ -7,6 +7,7 @@ tags: [JavaScript,  Class]
 pin: true
 math: true
 mermaid: true
+summary: 'JavaScript의 `class`는 ES6에 추가된 객체 생성 문법으로, `constructor`를 통해 객체를 초기화하고 메소드를 정의하여 재사용성을 높임. 이는 기존 생성자 함수와 달리 `new` 없이 호출 시 에러를 발생시키는 등의 차이가 있으며, `extends` 키워드로 상속을 구현하거나 메소드 및 생성자를 오버라이딩하여 기능을 확장할 수 있음. 특히 자식 클래스의 생성자를 오버라이딩할 때는 반드시 `super()`를 호출해야 함.'
 ---
 
 

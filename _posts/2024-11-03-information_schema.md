@@ -7,6 +7,7 @@ tags: [DB]
 pin: true
 math: true
 mermaid: true
+summary: 'Information Schema는 `information_schema` 스키마에 데이터베이스의 물리적 스키마 관련 메타데이터를 테이블 형태로 저장함. 이를 통해 사용자는 표준화된 SQL 쿼리로 테이블, 컬럼, 뷰 등 데이터베이스 객체의 상세 정보를 조회할 수 있음. 단, 이는 읽기 전용 스키마로 데이터를 직접 수정하거나 삭제할 수는 없음.'
 ---
 
 # Information Schema 란?

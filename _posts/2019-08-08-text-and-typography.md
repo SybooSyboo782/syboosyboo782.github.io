@@ -12,6 +12,7 @@ image:
   path: /commons/devices-mockup.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Responsive rendering of Chirpy theme on multiple devices.
+summary: '해당 블로그 글은 다양한 마크다운 서식 기능을 시각적으로 보여줌. 제목, 목록, 인용문 등 기본적인 문서 요소부터 코드 블록, 수식, 다이어그램, 이미지 배치까지 다채로운 표현 방식을 예시로 제시함.'
 ---
 
 ## Headings

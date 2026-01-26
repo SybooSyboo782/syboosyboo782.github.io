@@ -7,6 +7,7 @@ tags: [JavaScript, Prototype]
 pin: true
 math: true
 mermaid: true
+summary: 'JavaScript의 `call`, `apply`, `bind`는 `this`를 명시적으로 바인딩하는 `Function.prototype` 메서드임. `call`과 `apply`는 인수를 전달하는 방식만 다를 뿐 함수를 즉시 실행하며 `this`를 지정함. 반면, `bind`는 함수를 즉시 실행하지 않고 `this`가 바인딩된 새로운 함수를 반환함.'
 ---
 
 

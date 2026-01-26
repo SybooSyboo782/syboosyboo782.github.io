@@ -7,6 +7,7 @@ tags: [Docker]
 pin: true
 math: true
 mermaid: true
+summary: 'Dockerfile은 도커 이미지를 빌드하고 컨테이너 환경을 정의 및 구성하기 위한 스크립트임. 이 파일은 베이스 이미지 선택, 작업 디렉토리 설정, 파일 복사, 실행 명령어 정의 등 컨테이너 환경을 구축하는 일련의 지시어들을 포함함.'
 ---
 
 ![도커 이미지](../assets/img/docker/docker.png)
