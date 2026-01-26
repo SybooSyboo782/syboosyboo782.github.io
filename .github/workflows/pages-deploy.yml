@@ -73,6 +73,12 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      # 이 단계에서 vendors/bootstrap 등을 SCSS가 찾을 수 있게 준비합니다.
+      - name: Pre-build Setup
+        run: |
+          npm run build:css || true  # CSS 빌드 시도 (없으면 스킵)
+          bundle exec jekyll build --trace # 에러 상세 추적을 위해 --trace 추가
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
