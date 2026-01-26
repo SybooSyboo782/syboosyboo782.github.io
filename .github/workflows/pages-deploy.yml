@@ -34,11 +34,17 @@ jobs:
           submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
-            # --- 여기서부터 AI 요약 단계 시작 ---
+
+      # --- 여기서부터 AI 요약 단계 시작 ---
       - name: Setup Node.js for Summary
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm' # 캐시를 사용하면 빌드 속도가 빨라집니다.
+
+      # 2. 필수 패키지 설치 (이 단계가 없으면 SCSS 빌드 에러 발생)
+      - name: Install Node dependencies
+        run: npm install
 
       - name: Install Gemini SDK
         run: npm install @google/generative-ai
