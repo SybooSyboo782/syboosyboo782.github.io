@@ -7,6 +7,7 @@ tags: [WAS]
 pin: true
 math: true
 mermaid: true
+summary: '톰캣은 자바 서블릿 컨테이너로, JavaEE 기술을 구현하는 순수 자바 HTTP 웹서버임. 그 코어 컴포넌트인 카탈리나가 서블릿 구동을 담당하며, 다양한 설정 파일로 제어됨. 톰캣의 JSP 엔진인 재스퍼가 JSP 파일을 서블릿 코드로 컴파일하고, JSP 변경 시 서블릿 컨테이너가 이를 감지하여 서버 재시작 없이 반영함.'
 ---
 
 # Tomcat(톰캣)

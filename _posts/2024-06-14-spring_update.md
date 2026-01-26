@@ -7,6 +7,7 @@ tags: [자바, Spring]
 pin: true
 math: true
 mermaid: true
+summary: '스프링 6.0에서 6.1로 업데이트 시 최소 의존성 버전(SnakeYAML 2.0+, Jackson 2.14+ 등) 업데이트가 필요함. 특히 `LocalVariableTableParameterNameDiscoverer`가 제거되어 컴파일 시 `-parameters` 옵션을 명시적으로 설정해야 함. 이를 누락할 경우 오류가 발생하며, 6.1 및 6.2에서 제거될 예정인 API 목록도 확인해야 함.'
 ---
 
 # 스프링 6.0 -> 6.1 업데이트 가이드

@@ -7,6 +7,7 @@ tags: [WorldITShow, 후기]
 math: true
 mermaid: true
 pin: true
+summary: '필자는 World IT Show 2023에 참여하여 465개 기업의 다양한 IT 기술 발전을 관람함. 특히 산업형 메타버스, 생활 밀착형 IT, 그리고 개발 지식 없이 AI로 코드를 만드는 시도 등이 인상 깊었음을 밝힘. 총 5시간 동안 IT의 다채로운 모습을 확인한 유익한 경험이었으며, 다음 전시회에도 참관하고 싶어 함.'
 ---
 
 # World IT 전시회 2023 후기

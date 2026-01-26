@@ -9,6 +9,7 @@ categories: [Blogging, Tutorial]
 tags: [getting started]
 pin: true
 media_subpath: '/posts/20180809'
+summary: '이 블로그 글은 Jekyll 기반 웹사이트 구축 방법을 단계별로 설명함. 먼저, GitHub에 사이트 저장소를 생성하고, 데브 컨테이너 또는 네이티브 방식으로 개발 환경을 설정함. 이후 로컬 서버 실행, 사이트 구성, GitHub Actions를 통한 배포 과정을 다룸.'
 ---
 
 ## Creating a Site Repository

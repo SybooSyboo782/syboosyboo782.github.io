@@ -7,6 +7,7 @@ tags: [Load Balancing, Apache]
 pin: true
 math: true
 mermaid: true
+summary: '로드 밸런싱은 애플리케이션 트래픽을 여러 서버에 균등하게 분배하여 안정적이고 효율적인 서비스 운영을 목표로 함. 아파치 웹 서버에서는 `mod_proxy`와 `mod_proxy_balancer` 모듈을 활용하여 로드 밸런싱을 설정함. 이때 세션 일관성 유지, 보안 프로토콜 적용, DDoS 공격 방어 등 다양한 보안 취약점을 고려해야 함.'
 ---
 
 # 로드 밸런싱

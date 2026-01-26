@@ -7,6 +7,7 @@ tags: [JavaScript, Variable]
 pin: true
 math: true
 mermaid: true
+summary: '자바스크립트 변수는 데이터를 저장하는 이름 붙은 저장소로, `var`, `let`, `const` 세 가지 방법으로 선언함. `var`는 함수 스코프를 가지며 호이스팅 시 선언과 초기화가 함께 이루어지지만, `let`과 `const`는 블록 스코프를 가지며 Temporal Dead Zone(TDZ)의 영향을 받아 예측 가능한 변수 생성 과정을 가짐.'
 ---
 
 # 자바스크립트 변수

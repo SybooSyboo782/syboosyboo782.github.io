@@ -7,6 +7,7 @@ tags: [Install, Apache]
 pin: true
 math: true
 mermaid: true
+summary: '이 블로그 글은 아파치(Apache) 웹 서버를 설치하는 두 가지 방법을 설명함. `dnf install httpd` 명령어를 이용한 자동 설치는 매우 간편하게 진행됨. 반면 수동 설치는 m4, autoconf 등 다수의 선행 라이브러리를 순차적으로 다운로드 및 설치한 뒤 최종적으로 아파치 본체를 설치하는 복잡한 과정을 거침.'
 ---
 
 

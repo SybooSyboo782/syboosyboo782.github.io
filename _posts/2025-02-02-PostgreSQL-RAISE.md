@@ -7,6 +7,7 @@ tags: [DB]
 pin: true
 math: true
 mermaid: true
+summary: 'PostgreSQL의 `RAISE`는 PL/pgSQL에서 메시지를 출력하거나 예외를 발생시켜 디버깅, 로깅, 오류 처리에 활용됨. 다양한 레벨(DEBUG, NOTICE, WARNING, EXCEPTION 등)로 메시지의 중요도를 설정할 수 있으며, 특히 `EXCEPTION` 레벨은 코드 실행을 중단시킴. 예외를 잡아서 처리하거나 시스템 설정을 통해 메시지 출력 방식을 제어하는 등 유연한 사용이 가능함.'
 ---
 
 # PostgreSQL RAISE 란?

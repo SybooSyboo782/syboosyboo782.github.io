@@ -5,6 +5,7 @@ date: 2019-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
+summary: '이 블로그 글은 Chirpy 템플릿에 게시물을 작성하는 방법을 안내함. 게시물은 특정 파일명 형식으로 `_posts` 디렉토리에 생성하며, 상단에 제목, 날짜, 카테고리, 태그 등을 포함하는 Front Matter를 필수로 작성함. 저자 정보, 설명, 목차, 댓글, 미디어 URL 등 다양한 게시물 관련 설정은 Front Matter 또는 전역 설정을 통해 상세히 제어 가능함.'
 ---
 
 This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.

@@ -7,6 +7,7 @@ tags: [Docker]
 pin: true
 math: true
 mermaid: true
+summary: '해당 블로그 글은 도커 컨테이너를 효율적으로 관리하기 위한 핵심 명령어들을 정리함. 컨테이너의 생성, 실행, 상태 확인, 파일 조작 및 삭제 등 전반적인 라이프사이클 관련 명령어들을 상세히 설명함.'
 ---
 
 ![도커 이미지](../assets/img/docker/docker.png)
