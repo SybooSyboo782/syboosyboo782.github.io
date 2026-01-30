@@ -7,6 +7,7 @@ pin: true
 math: true
 mermaid: true
 tags: [jekyll, gemini-ai, github-actions, nodejs, chirpy]
+summary: 'Google Gemini AI를 활용하여 블로그 글 요약을 자동화하는 시스템을 구축함. 새 포스트가 푸시될 때마다 GitHub Actions가 Gemini AI로 본문을 요약하고, 그 결과를 글 Front-matter에 추가한 뒤 블로그에 토글 UI로 게시하도록 구현함.'
 ---
 
 
